@@ -1,0 +1,5 @@
+/node_modules
+/package*
+/rename.js
+/server.js
+.DS_Store

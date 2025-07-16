@@ -1,0 +1,265 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  body {
+    align-items: start;
+  }
+}
+
+#zen-garden {
+  width: 1280px;
+  height: 720px;
+}
+
+#zen-background {
+  display: block;
+}
+
+#plant-container {
+  width: 1280px;
+  height: 720px;
+  position: relative;
+  margin-top: -720px;
+}
+
+#plant-container > div {
+  display: inline-block;
+  position: absolute;
+}
+
+#plant-container > div > div.plant {
+  display: inline-block;
+  position: absolute;
+  top: -33px;
+}
+
+div.plant.PotatoMine-anim_armed {
+  transform: scale(0.8) translate(15px, 15px);
+}
+
+div.plant.Caltrop-anim_idle {
+  transform: scale(0.9) translate(6px, 7px);
+}
+
+div.plant.Plantern-anim_idle {
+  transform: translateY(-6px);
+}
+
+div.plant.Cactus-anim_idle {
+  transform: translate(5px, 3px);
+}
+
+div.plant.Starfruit-anim_idle {
+  transform: translateY(23px);
+}
+
+div.plant.Pumpkin-anim_idle {
+  transform: translateY(14px);
+}
+
+div.plant.Cabbagepult-anim_idle {
+  transform: translateY(6px);
+}
+
+div.plant.Cornpult-anim_full_idle {
+  transform: translate(-3px, 3px);
+}
+
+div.plant.Coffeebean-anim_idle {
+  transform: scale(0.8) translate(7px, 5px);
+}
+
+div.plant.Umbrellaleaf-anim_idle {
+  transform: translate(2px, 5px);
+}
+
+div :has(> .pot.Pot-anim_waterplants) {
+  transform: translateX(-3px);
+}
+
+div.plant.LilyPad-anim_idle {
+  transform: translateY(14px);
+}
+
+div.plant.Tanglekelp-anim_idle {
+  transform: translateY(6px);
+}
+
+#plant-1-1 {
+  left: 313px;
+  top: 160px;
+}
+
+#plant-1-2 {
+  left: 395px;
+  top: 157px;
+}
+
+#plant-1-3 {
+  left: 477px;
+  top: 153px;
+}
+
+#plant-1-4 {
+  left: 559px;
+  top: 157px;
+}
+
+#plant-1-5 {
+  left: 647px;
+  top: 157px;
+}
+
+#plant-1-6 {
+  left: 729px;
+  top: 153px;
+}
+
+#plant-1-7 {
+  left: 811px;
+  top: 155px;
+}
+
+#plant-1-8 {
+  left: 893px;
+  top: 157px;
+}
+
+
+#plant-2-1 {
+  left: 309px;
+  top: 253px;
+}
+
+#plant-2-2 {
+  left: 388px;
+  top: 253px;
+}
+
+#plant-2-3 {
+  left: 470px;
+  top: 253px;
+}
+
+#plant-2-4 {
+  left: 558px;
+  top: 253px;
+}
+
+#plant-2-5 {
+  left: 657px;
+  top: 259px;
+}
+
+#plant-2-6 {
+  left: 741px;
+  top: 256px;
+}
+
+#plant-2-7 {
+  left: 824px;
+  top: 249px;
+}
+
+#plant-2-8 {
+  left: 906px;
+  top: 256px;
+}
+
+
+#plant-3-1 {
+  left: 280px;
+  top: 353px;
+}
+
+#plant-3-2 {
+  left: 370px;
+  top: 353px;
+}
+
+#plant-3-3 {
+  left: 460px;
+  top: 353px;
+}
+
+#plant-3-4 {
+  left: 550px;
+  top: 355px;
+}
+
+#plant-3-5 {
+  left: 657px;
+  top: 355px;
+}
+
+#plant-3-6 {
+  left: 747px;
+  top: 348px;
+}
+
+#plant-3-7 {
+  left: 838px;
+  top: 350px;
+}
+
+#plant-3-8 {
+  left: 927px;
+  top: 357px;
+}
+
+
+#plant-4-1 {
+  left: 274px;
+  top: 453px;
+}
+
+#plant-4-2 {
+  left: 364px;
+  top: 453px;
+}
+
+#plant-4-3 {
+  left: 454px;
+  top: 456px;
+}
+
+#plant-4-4 {
+  left: 544px;
+  top: 458px;
+}
+
+#plant-4-5 {
+  left: 664px;
+  top: 461px;
+}
+
+#plant-4-6 {
+  left: 755px;
+  top: 459px;
+}
+
+#plant-4-7 {
+  left: 846px;
+  top: 453px;
+}
+
+#plant-4-8 {
+  left: 940px;
+  top: 455px;
+}

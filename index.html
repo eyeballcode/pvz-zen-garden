@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zen Garden</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="zen-garden">
+    <img id="zen-background" src="/Background_Greenhouse.png">
+    <div id="plant-container">
+    </div>
+  </div>
+  <script>
+    function transform() {
+      let transform = ''
+      if (window.innerWidth > 1280 && window.innerHeight > 720) {
+        transform = `scale(${Math.max(window.innerWidth / 1280, window.innerHeight / 720)})`
+      }
+      else if (window.innerWidth > 1280) transform = `scale(${window.innerWidth / 1280})`
+      else if (window.innerHeight > 720) transform = `scale(${window.innerHeight / 720})`
+
+      document.getElementById('zen-garden').style.transform = transform
+    }
+    transform()
+    window.addEventListener('resize', transform)
+  </script>
+
+  <audio id="audio" src="/Zen Garden.mp3" loop autoplay></audio>
+  <script src="utils.js"></script>
+  <script src="zen-utils.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
